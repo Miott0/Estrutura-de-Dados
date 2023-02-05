@@ -8,10 +8,15 @@ seja maior que duas vezes o de qualquer outro caminho que ela possua - 2log(n+1)
 Cada nó possui os atributos: cor, chave, esquerda, direita e pai. Se um nó pai ou filho não
 existir, o ponteiro apontará para Nil(nulo).
 Para ser uma árvore rubro-negra ela precisa seguir algumas propriedades
+
 • Todo nó tem que ser vermelho ou preto.
+
 • A raiz sempre será preta.
+
 • Toda folha Nil (nulo) é preta.
+
 • Se um nó é vermelho, seus filhos são pretos.
+
 • Para cada nó, todos os caminhos simples do nó até folhas descendentes contêm o
 mesmo número de nós pretos.
 
