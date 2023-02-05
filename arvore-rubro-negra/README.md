@@ -1,6 +1,6 @@
 # Árvore Rubro Negra
 
-## Propriedades
+### Propriedades
 Árvore rubro-negra é um modelo de árvore de busca binária onde o nó possui um campo
 extra: cor (vermelha ou preta). As cores do nós são restringidas da raiz até a ultima folha. Essa
 estrutura assegura que a árvore será balanceada, onde o comprimento dos seus caminhos não
@@ -15,20 +15,20 @@ Para ser uma árvore rubro-negra ela precisa seguir algumas propriedades
 • Para cada nó, todos os caminhos simples do nó até folhas descendentes contêm o
 mesmo número de nós pretos.
 
-# Rotação
+### Rotação
 Operações de insert e delete que são feitas em uma árvore comum, modificam a estrutura da
 árvore. Acontece que quando a árvore sofre essas alterações pode acabar acontecendo que
 viole a regra das cores. Para que esse problema não ocorra, devemos mudar a estrutura dos
 ponteiros. Essa mudança é feita através da rotação, criando métodos locais. Existem dois tipos
 de rotação: Para direita e para esquerda
 
-# Inserção
+### Inserção
 A inserção na árvore rubro-negra de n nós no tempo O(log n). Para inserir o no na árvore como
 se ela fosse uma árvore binária comum e depois colorimos o nó de vermelho. Para garantir
 que a propriedade de cores, é um usado um procedimento para recolorir de novamente os nós
 e executar as rotações
 
-# Remoção
+### Remoção
 A remoção se inicia como em outras árvores binárias convencionais. Então após a
 remoção é possível que a propriedade das cores fique alterada e a árvore fique
 desbalanceada, sendo necessário fazer a fixação das suas posições.
