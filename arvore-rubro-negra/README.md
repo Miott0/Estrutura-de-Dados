@@ -1,6 +1,6 @@
-## Árvore Rubro Negra
+# Árvore Rubro Negra
 
-# Propriedades
+## Propriedades
 Árvore rubro-negra é um modelo de árvore de busca binária onde o nó possui um campo
 extra: cor (vermelha ou preta). As cores do nós são restringidas da raiz até a ultima folha. Essa
 estrutura assegura que a árvore será balanceada, onde o comprimento dos seus caminhos não
